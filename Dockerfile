@@ -4,7 +4,7 @@ FROM ubuntu:14.04
 MAINTAINER Nathaniel Hoag, info@nathanielhoag.com
 
 RUN apt-get update && \
-  apt-get install -y python-software-properties && \
+  apt-get install -y software-properties-common && \
   add-apt-repository -y ppa:git-core/ppa && \
   apt-get update && \
   apt-get install -y git && \
