@@ -1,0 +1,34 @@
+[core]
+  precomposeunicode = false
+  editor = vi
+  whitespace = trailing-space,space-before-tab
+  autocrlf = false
+  safecrlf = true
+  preloadindex = 1
+  pager=less -FRX
+[alias]
+  st = status -sb
+  co = checkout
+  br = branch
+[apply]
+  whitespace = fix
+[branch]
+  autosetuprebase = always
+[color]
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
+  ui = auto
+[merge]
+  tool = vimdiff
+[push]
+  default = simple
+[url "git@github.com/"]
+  insteadOf = gg:
+[url "https://github.com/"]
+  insteadOf = gh:
+[url "https://gist.github.com/"]
+  insteadOf = gist:
+[url "https://bitbucket.org/"]
+  insteadOf = bb:
