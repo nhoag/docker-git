@@ -1,4 +1,4 @@
-# DOCKER-VERSION	1.5.0
+# DOCKER-VERSION	1.6.2
 
 FROM ubuntu:14.04
 MAINTAINER Nathaniel Hoag, info@nathanielhoag.com
